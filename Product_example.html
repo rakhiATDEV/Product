@@ -1,0 +1,169 @@
+<html>
+<body>
+	<div>
+		<h4>Products Examples</h4>
+	</div>
+	<div>
+	<ol>
+	<li><a href="#Example1">Hello World</a></li>
+	<li><a href="#Example2">Greeting Example </a></li>
+	<li><a href="#Example3">Fetch data from end system - database </a></li>
+	<li><a href="#Example4">Fetch data from end system - file </a></li>
+	<li><a href="#Example5">Fetch filtered data from end system – database</a></li>
+	<li><a href="#Example6">Fetch filtered data from end system – file</a></li>
+	<li><a href="#Example7">Insert single record into database </a></li>
+	<li><a href="#Example8">Update single record from database </a></li>
+	<li><a href="#Example9">Delete single record from database </a></li>
+	<li><a href="#Example10">Fetch data from end system – MQ  </a></li>
+	</ol>
+	</div>
+	
+	<div id="Example1">
+		<div>
+			<span><b>1. Hello World Example</b></span><br>
+			<u>Description:</u> In this simple example we are using a rest call to display the input string message as “Hello world”. <br>
+			If we change the input string then accordingly the same msg will be shown in the output . . <br>
+			For example use the http post method to send the input json as <br>
+				{<br>
+				“msg”:”Hello World”<br>
+				} <br>
+				The output will be json <br>
+				{<br>
+				“input_msg” :”Hellow World”<br>
+				}<br>
+
+			
+		</div>
+		<br><br>
+		<div>
+			<u>Workflow:</u>
+		</div>
+	</div>
+	<br><br><br>
+	<div id="Example2">
+		<div>
+			<span><b>2. Greeting Example</b></span><br>
+			<u>Description:</u> This example show concatenation operation between two string one from input and one which is default or hard coded string.<br>
+			SO we have the http post service with input body as json<br>
+				{<br>
+				“personName”:”John”<br>
+				}<br>
+				The ouput will be json<br>
+				{<br>
+				“Greeting”: “Welcome to the new community John”<br>
+				}<br>
+
+
+			
+		</div>
+		<br><br>
+		<div>
+			<u>Workflow:</u>
+		</div>
+	</div>
+	<br><br><br>
+	<div id="Example3">
+		<div>
+			<span><b>3. Fetch data from end system - database</b></span><br>
+			<u>Description:</u> This example shows how we can fetch data from database.<br>
+			Database is pre-configured. We pass the table name from which we need to get the data .<br>
+
+			
+		</div>
+		<br><br>
+		<div>
+			<u>Workflow:</u>
+		</div>
+	</div>
+	<br><br><br>
+	<div id="Example4">
+		<div>
+			<span><b>4. Fetch data from end system - File</b></span><br>
+			<u>Description:</u> This example shows how we can fetch data from external file. <br>
+
+			
+		</div>
+		<br><br>
+		<div>
+			<u>Workflow:</u>
+		</div>
+	</div>
+	<br><br><br>
+	<div id="Example5">
+		<div>
+			<span><b>5. Fetch filtered data from end system – database</b></span><br>
+			<u>Description:</u> This example shows how we can fetch data from database <br>
+			Database is pre-configured. We pass the table name as well as filter criteria to get the data .<br>
+
+			
+		</div>
+		<br><br>
+		<div>
+			<u>Workflow:</u>
+		</div>
+	</div>
+	<br><br><br>
+	<div id="Example6">
+		<div>
+			<span><b>6. Fetch filtered data from end system – file </b></span><br>
+			<u>Description:</u> This example shows how we can fetch data from external file. <br>
+			We pass the file name as well as filter criteria to get the data . <br>
+
+			
+		</div>
+		<br><br>
+		<div>
+			<u>Workflow:</u>
+		</div>
+	</div>
+	<br><br><br>
+	<div id="Example7">
+		<div>
+			<span><b>7. Insert single record into database  </b></span><br>
+			<u>Description:</u> This example shows how we insert single record into database according to the input body in  post request as json.  <br>
+						
+		</div>
+		<br><br>
+		<div>
+			<u>Workflow:</u>
+		</div>
+	</div>
+	<br><br><br>
+	<div id="Example8">
+		<div>
+			<span><b>8. Update single record from database   </b></span><br>
+			<u>Description:</u> This example shows how we update single record from database according to the record id passed in the URI parameter <br>
+			with post request and the updated values in the body json  <br>
+						
+		</div>
+		<br><br>
+		<div>
+			<u>Workflow:</u>
+		</div>
+	</div>
+	<br><br><br>
+	<div id="Example9">
+		<div>
+			<span><b>9. Delete single record from database   </b></span><br>
+			<u>Description:</u> This example shows how we delete single record from database according to the record id passed in the URI parameter with delete request <br>
+								
+		</div>
+		<br><br>
+		<div>
+			<u>Workflow:</u>
+		</div>
+	</div>
+	<br><br><br>
+	<div id="Example10">
+		<div>
+			<span><b>10. Fetch data from end system – MQ   </b></span><br>
+			<u>Description:</u> This example shows how we can fetch data from messaging queue. We pass the queue name to get the data .<br>
+								
+		</div>
+		<br><br>
+		<div>
+			<u>Workflow:</u>
+		</div>
+	</div>
+</body>
+</html>
